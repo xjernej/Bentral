@@ -1,0 +1,82 @@
+.notice-warning.inline,
+.notice-error, div.error {
+    display: none;
+}
+
+hr {
+    margin-top: 5px !important;
+    margin-bottom: 15px !important;
+}
+
+.bentral-setting {
+    width: 100% !important;
+}
+
+.bentral-checkbox {
+    width: 32px !important;
+    height: 32px !important;
+}
+
+input[type=checkbox]:checked::before {
+    content: url(data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2020%2020%27%3E%3Cpath%20d%3D%27M14.83%204.89l1.34.94-5.81%208.38H9.02L5.78%209.67l1.34-1.25%202.57%202.4z%27%20fill%3D%27%233582c4%27%2F%3E%3C%2Fsvg%3E);
+    margin: -.1875rem 0 0 -.25rem;
+    height: 32px;
+    width: 32px;
+}
+
+.bentral-section {
+    color: #304050!important;
+    margin-top: 20px !important;
+    font-weight: bold !important;
+}
+
+.sp-original-input-container .sp-add-on .sp-colorize {
+    border-radius: 50%!important;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+input.spectrum.with-add-on {
+    margin-bottom: 5px!important;
+}
+
+.sp-colorize-container{
+    background: #fff!important;
+    background-image: none!important;
+    border-right: 0!important;
+}
+
+.sp-colorize-container.sp-add-on {
+    width: 34px!important;
+    border-radius: 0!important;
+    height: 34px!important;
+    border: 1px solid rgb(228, 233, 238)!important;
+    border-right: 0!important;
+    padding: 4px;
+}
+
+input.bentral-color.form-control.spectrum.with-add-on {
+    border-radius: 0!important;
+    width: calc(100% - 34px)!important;
+    max-width: 366px!important;
+    border-left: 0!important;
+}
+
+.form-control{
+    border-radius: 0!important;
+    box-shadow: none!important;
+}
+
+a.list-group-item {
+    padding: 2px 15px !important;
+}
+
+.bentral-tab-container h3 {
+    font-size: 24px!important;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.bentral-admin .menu-head img {
+    width: 100px;
+    margin: auto;
+}

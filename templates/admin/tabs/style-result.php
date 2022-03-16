@@ -1,0 +1,1 @@
+<textarea name="bentral_result_style" id="bentral_result_style" rows="30"><?php echo wp_unslash(get_option('bentral_result_style') ?: trim(Bentral_Admin_Templates::defaultResultsStyle())) ?></textarea>

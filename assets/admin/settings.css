@@ -1,0 +1,389 @@
+#wpbody-content div.updated,
+.update-nag,
+.notice-success,
+.notice-error,
+.notice.updated,
+.notice-warning {
+    display: none!important;
+}
+
+#wpcontent, #wpfooter {
+    background: #f3f6f9;
+}
+
+.bentral-admin {
+    width: calc(100% + 35px)!important;
+    margin-left: -35px!important;
+    overflow-x: hidden;
+}
+
+.bentral-admin .menu-head img {
+    width: 100px
+}
+
+.bentral-admin .menu-head h3 {
+    font-size: 21px !important;
+    line-height: 27px !important;
+    margin: 20px 0 0 0;
+    padding: 0 !important;
+    font-weight: 600;
+    color: #fff;
+}
+
+.bentral-admin .menu-head .version {
+    display: block;
+    position: relative;
+    top: -44px;
+    right: 25px;
+    transform: translateX(50%);
+    font-size: 11px;
+    font-weight: 400;
+    color: #93abc2;
+}
+
+.bentral-tab-container p.submit {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.bentral-tab-container .action-toolbar{
+    position: absolute;
+    right: 15px;
+    top: 40px;
+    min-width: 50%;
+}
+
+.bentral-tab-container .action-toolbar a,
+.bentral-tab-container .action-toolbar input,
+.bentral-tab-container .action-toolbar button,
+.bentral-tab-container .action-toolbar select{
+    float: right;
+    margin-right: 5px!important;
+}
+
+.bentral-tab-container .action-toolbar a,
+.bentral-tab-container .action-toolbar input,
+.bentral-tab-container .action-toolbar button {
+    float: right!important;
+    font-size: 15px!important;
+    padding: 0 20px!important;
+    font-weight: bold!important;
+    margin-right: 5px!important;
+}
+
+.bentral-tab-container .action-toolbar .button.success {
+    background-color: #388a5c !important;
+    border: 1px solid #388a5c !important;
+}
+
+.bentral-tab-container #bentral-settings-form .hidden {
+    display: none;
+}
+
+.bentral-tab-container #bentral-verify-key .loading-img {
+    vertical-align: sub;
+    padding-right: 5px;
+}
+
+.bentral-tab-container .CodeMirror.CodeMirror-wrap {
+    border: 1px solid #dedede !important
+}
+
+.bentral-tab-container .nav-tab.active {
+    background: #fff;
+}
+
+.bentral-tab-container .xVar {
+    background: #f4f4f4;
+    border: 1px solid #7e8993;
+    color: #32373c;
+    font-weight: bold;
+    text-align: center;
+    padding: 2px 10px;
+    display: block;
+    width: 100% !important;
+    cursor: pointer;
+}
+
+.bentral-tab-container .xVar:hover {
+    background: #ececec;
+}
+
+.bentral-tab-container .clipboard-info {
+    color: #135e96;
+}
+
+.bentral-tab-container .xLi {
+    line-height: 23px;
+}
+
+.bentral-tab-container .bentral-form h4 {
+    margin: 0px 0 3px 0;
+}
+
+.bentral-tab-container .bentral-form .form-table td {
+    padding: 1px 10px;
+}
+
+.bentral-tab-container #tab_settings {
+    width: 100%;
+    display: table;
+}
+
+.bentral-tab-container .setting-row {
+    width: 100%;
+}
+
+.bentral-tab-container .setting-section {
+    width: 500px;
+    padding: 0 20px;
+    border: 1px solid #ddd;
+    float: left;
+    background: #fff;
+    margin: 10px;
+    min-height: 410px;
+}
+
+.bentral-tab-container .bentral-form table {
+    width: 100%;
+}
+
+.bentral-tab-container .bentral-form p.submit {
+    float: right;
+    max-width: 150px;
+    margin: 0;
+    padding: 0;
+}
+
+.bentral-tab-container .regular-text {
+    width: 400px;
+"name": "Slovensko",
+}
+
+.bentral-tab-container .hidden {
+    display: none !important;
+}
+
+.bentral-tab-container .form-table th {
+    padding: 10px 10px 10px 0;
+}
+
+.bentral-tab-container .wp-core-ui select,
+.bentral-tab-container input,
+.bentral-tab-container select {
+    width: 100% !important;
+    max-width: 400px !important;
+}
+
+.bentral-tab-container .form-table td {
+    padding: 10px;
+}
+
+.bentral-tab-container .form-table {
+    margin-top: 0;
+}
+
+.bentral-tab-container div.bentral-title {
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.bentral-tab-container div.bentral-tab-container {
+    width: 100%;
+    height: auto;
+    min-height: 800px;
+    padding: 0;
+}
+
+.bentral-tab-container a.list-group-item {
+    border: 0;
+    text-align: left;
+    padding: 5px 15px;
+    -webkit-user-drag: none;
+    font-weight: bold!important;
+
+}
+
+.bentral-tab-container a.list-group-item:hover {
+    background-color: rgba(114, 165, 216, 0.3)!important;
+}
+
+.bentral-tab-container a.list-group-item,
+.bentral-tab-container button.list-group-item {
+    display: block;
+    color: #fff!important;
+    font-weight: 500!important;
+    border-radius: 3px!important;
+    align-items: center!important;
+    text-decoration: none!important;
+}
+
+.bentral-tab-container a.list-group-item {
+    background: transparent;
+    border-bottom: 0;
+}
+
+.bentral-tab-container a.list-group-item:focus {
+    box-shadow: none;
+}
+
+.bentral-tab-container a.list-group-item .glyphicon {
+    padding: 0 10px 0 0;
+}
+
+.bentral-tab-container div.bentral-tab-menu {
+    width: 245px;
+    min-height: 100vh;
+    padding: 30px 15px;
+    box-sizing: border-box;
+    background: #394d60;
+    transition: left .3s ease-in-out, right .3s ease-in-out;
+    border-right: 1px solid #eceff5;
+    z-index: 1;
+}
+
+.bentral-tab-content .tab-topbar{
+    padding: 30px 30px 0;
+    display: flex;
+    background-color: #fcfeff;
+    color: #304050;
+    font-size: 14px;
+    line-height: 26px;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 1px solid #e6e9f0;
+}
+
+.bentral-tab-content .tab-content{
+    padding: 20px;
+    background-color: #f3f6f9;
+    min-height: 100vh;
+}
+.bentral-tab-content .tab-content .card-group{
+    margin-bottom: 20px;
+    border-radius: 3px;
+    background-color: #fff;
+    border: 1px solid #eceff5;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgb(31 30 47 / 3%);
+    min-width: 400px!important;
+    overflow: auto!important;
+    display: block!important;
+}
+
+.bentral-tab-container .properties-list.tabData{
+    min-width: 1100px!important;
+}
+
+.bentral-tab-container div.bentral-tab {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.bentral-tab-container div.bentral-tab-menu div.list-group {
+    margin-bottom: 0;
+}
+
+.bentral-tab-container div.bentral-tab-menu div.list-group > a {
+    font-weight: 500!important;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'Poppins', sans-serif!important;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+div.bentral-tab-menu div.list-group > a .glyphicon,
+div.bentral-tab-menu div.list-group > a .fa {
+    color: #FFF;
+}
+
+div.bentral-tab-menu div.list-group > a:first-child {
+    border-top-right-radius: 0;
+    -moz-border-top-right-radius: 0;
+}
+
+div.bentral-tab-menu div.list-group > a:last-child {
+    border-bottom-right-radius: 0;
+    -moz-border-bottom-right-radius: 0;
+}
+
+div.bentral-tab-menu div.list-group > a.active,
+div.bentral-tab-menu div.list-group > a.active .fa {
+    background-color: rgba(114, 165, 216, 0.3)!important;
+    color: #ffffff;
+}
+
+div.bentral-tab-menu div.list-group > a.active:after {
+    content: '';
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    margin-top: -13px;
+    border-left: 0;
+    border-bottom: 13px solid transparent;
+    border-top: 13px solid transparent;
+    border-left: 10px solid rgba(114, 165, 216, 0.3);
+}
+
+div.bentral-tab-content {
+    background-color: #ffffff;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+
+div.bentral-tab div.bentral-tab-content:not(.active) {
+    display: none;
+}
+
+.bentral-tab-container input[type=checkbox]:checked::before {
+    content: url(data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2020%2020%27%3E%3Cpath%20d%3D%27M14.83%204.89l1.34.94-5.81%208.38H9.02L5.78%209.67l1.34-1.25%202.57%202.4z%27%20fill%3D%27%233582c4%27%2F%3E%3C%2Fsvg%3E);
+    margin: -.1875rem 0 0 -.25rem;
+    height: 32px;
+    width: 32px;
+}
+
+.bentral-tab-container .form-table th,
+.bentral-tab-container .form-wrap label {
+    color: #304050;
+}
+
+.bentral-tab-container .form-control {
+    display: block!important;
+    border: 1px solid #e4e9ee!important;
+    color: #304050!important;
+    background-color: #fff!important;
+    font-size: 14px!important;
+    line-height: 26px!important;
+    -moz-appearance: none!important;
+    -webkit-appearance: none!important;
+    margin: 0!important;
+}
+
+.bentral-tab-container .button{
+    line-height: 32px!important;
+    height: 32px!important;
+}
+
+.bentral-tab-container .manual-url {
+    border: 1px solid #aaaaaa!important;
+    background: #fff!important;
+    width: calc(100% - 22px)!important;
+    max-width: 100%!important;
+}
+
+@media screen and (max-width: 782px){
+    .wp-admin .form-table select, select,
+    .wp-admin .form-table select, input {
+        width: 100% !important;
+        max-width: 100%!important;
+    }
+}
+
+@media screen and (max-width: 1152px){
+    .wp-admin .form-table select, select,
+    .wp-admin .form-table select, input {
+        width: 100% !important;
+        max-width: 100%!important;
+    }
+}
